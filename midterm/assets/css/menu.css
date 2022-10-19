@@ -41,7 +41,6 @@ body {
     margin: 50px;
  }
 
-
 /* Button */
  #button {
 	display: flex;
@@ -73,12 +72,29 @@ body {
 
 #content {
 	width: 1200px;
-	height: 100vh;
+	height: 245vh;
 	background: #9DA69F;
 	margin: 0 auto;
 	position: relative;
 }
 
+#food{
+    padding-right: 40px;
+    padding-top: 5px;
+}
+
+.food-item{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+
+#food {
+    column-count: 2;
+    column-rule-width: 1px;
+    column-rule-color: #748E7A;
+
+  }
 /* BODY 
 #gypsy-item{
     display: flex;
@@ -114,8 +130,9 @@ body {
     margin-right: 105px;
     margin-bottom: 10px;
  }
+*/
 
-/* HEADER BOTTOM
+/* HEADER BOTTOM*/
 .bottom-item{
    background: #2A3F2E;
    color: #9DA69F;
@@ -152,18 +169,25 @@ body {
     font-weight: bold;
     line-height: 0.5;
     color: black;
+    text-align: center;
 }
 
-#food-item{
+h2{
     font-family: 'Aboreto', serif;
     color: #2A3F2E;
-    font-size: 15px;
+    font-size: 30px;
 }
 
 p {
     font-family: 'Poiret One', serif;
     color: black;
-    font-size: 10px;
+    font-size: 14px;
+}
+
+h3 {
+    font-family: 'Aboreto', serif;
+    color: black;
+    font-size: 18px;
 }
 
 .top-item, .bottom-item {
@@ -171,5 +195,5 @@ p {
 }
 
 #about, #names, #navs {
-    font-family: ' Poiret One', serif;
+    font-family: 'Poiret One', serif;
 }
