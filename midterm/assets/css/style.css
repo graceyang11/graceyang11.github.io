@@ -1,0 +1,164 @@
+/* header margin, background color, font*/
+body {
+	margin: 0;
+	background: #C4C4C4;
+}
+
+/* HEADER TOP*/
+.top-item{
+ 	background: #2A3F2E;
+	color: #9DA69F;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+    padding: 10px;
+}
+
+
+/* NAVBAR*/
+#navs {
+    background: #C4C4C4;
+	color: black;
+	display: flex;
+	flex-direction: row;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 10px;
+}
+
+.logo-item{
+    display: flex;
+    flex-direction: row;
+	justify-content: flex-start;
+    padding-left: 40px;
+    padding-top: 8px;
+ }
+
+.navbar-item {
+    margin: 60px;
+ }
+
+.navbar-item{
+    margin: 50px;
+ }
+
+
+/* Button */
+ #button {
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+}
+ 
+ 
+.eats {
+    background: #748E7A;
+    padding: 12px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+
+.eats {
+    align-items: center;
+    margin-left: 60px;
+ }
+
+.eats:hover {
+   opacity: 0.8;
+   cursor: pointer;
+}
+
+/* BODY */
+#gypsy-item{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* POPULAR DISHES*/
+#dishes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dish-item {
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* POPULAR DISHES NAMES*/
+#names {
+	color: black;
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    text-align: center;
+ }
+
+.name-item {
+    margin-left: 105px;
+    margin-right: 105px;
+    margin-bottom: 10px;
+ }
+
+/* HEADER BOTTOM*/
+.bottom-item{
+   background: #2A3F2E;
+   color: #9DA69F;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   padding: 10px;
+   
+}
+/* ALIGN TEXT*/
+#title, #about, #hours {
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+
+}
+
+
+/* EFFECTSS*/
+.navbar-item:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Typography
+#title {
+    font-family: 'Lobster', serif;
+    font-size: 20px;
+}
+*/
+#title{
+    font-family: 'Aboreto', serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 0.5;
+    color: #black;
+}
+
+#hours{
+    font-family: 'Aboreto', serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 0.5;
+    color: #black;
+}
+
+
+.top-item, .bottom-item {
+    font-family: 'Fjalla One', serif;
+}
+
+#about, #names, #navs {
+    font-family: 'Poiret One', serif;
+}
