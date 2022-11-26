@@ -1,0 +1,177 @@
+/* header margin, background color, font*/
+body {
+	margin: 0;
+	background: #F3E6CD;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+#section2 {
+	margin-top: 25px;
+	background: #9BAC95;
+    padding: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+#pepperminttea {
+    background: #FEF7EB;
+	color: black;
+	display: flex;
+	flex-direction: row;
+    border: 3px solid #697964;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#lemontea {
+    background: #FEF7EB;
+	color: black;
+	display: flex;
+	flex-direction: row;
+    border: 3px solid #697964;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+#chaitea {
+    background: #FEF7EB;
+	color: black;
+	display: flex;
+	flex-direction: row;
+    border: 3px solid #697964;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* tea*/
+.home-item {
+    position: fixed;
+    top: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+ }
+
+#tea-things {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tea-item {
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.pepperminttea-item{
+    margin-left: 50px;
+    margin-right: 6px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.lemontea-item{
+    margin-left: 50px;
+    margin-right: 6px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.chaitea-item{
+    margin-left: 50px;
+    margin-right: 6px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.icon-item{
+    margin-left: 150px;
+    margin-right: 10px;
+
+}
+
+#advice{
+    margin-top: 30px;
+}
+
+/* HEADER BOTTOM*/
+.bottom-item{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   padding: 10px;
+   
+}
+/* ALIGN TEXT*/
+#title{
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+
+}
+
+/* EFFECTSS*/
+
+.tea-item:hover {
+    opacity: 0.5;
+    cursor: pointer;
+ }
+
+.home-item:hover {
+    opacity: 0.5;
+    cursor: pointer;
+ }
+
+#title{
+    font-family: 'Amatic SC', serif;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 0.5;
+    color: #black;
+}
+
+#tea-name{
+    font-family: 'Amatic SC', serif;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 0.5;
+    text-align: center;
+    color: #black;
+}
+
+
+#tea-description{
+    font-family: 'American Typewriter', serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2;
+    text-align: center;
+    color: #black;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+}
+
+#advice{
+    font-family: 'American Typewriter', serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 2;
+    color: #black;
+}
+
+#temp-advice{
+    padding-top: 40px;
+}
+
+.bottom-item {
+    font-family: 'Amatic SC', serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 0.5;
+    color: #black;
+    opacity: 30%;
+}
